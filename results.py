@@ -1,0 +1,6 @@
+phys= input("what was the physics mark? ")
+chem= input("what was the chemistry mark? ")
+math= input("what was the math mark? ")
+total=int(phys)+int(chem)+int(math)
+per=total*(100/450)
+print("Total marks is", total, "and percentage is ", per, ".")

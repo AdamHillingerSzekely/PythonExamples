@@ -1,0 +1,6 @@
+enter_reg = int(input("Enter registration number"))
+enter_name = input("Enter name")
+enter_add = input("Enter address")
+FileWrite= open("recset.txt", "w")
+save= input("Do you want to save record")
+if 
